@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <title>Farhad Rasoli</title>
+    <meta name="author" content="Farhad Rasoli">
+    <meta name="description" content="Portfolio">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Main.css">
+</head>
+<body>
+<div class="welcome">
+<header>
+    <p class="Name" id="Name">Farhad Rasoli</p>
+    <nav class="links">
+        <a href="#projects">Projects</a>
+        <a href="#skills">My skills</a>
+        <a href="#About">About Me</a>
+        <a href="#Contact">Contact Me</a>
+    </nav>
+</header>
+<hr>
+<div class="main">
+<div id="About">
+<h1 class="name">I'm Farhad Rasoli</h1><br>
+<h3 class="briefintro">Hi there&#x1F44B;, welcome to my Portfolio&#x1F60A;, I hope you like it. I am a second year Computer Science student at York University. I am most interested in game developement but I also like web design. I love coding and love how we can create anything that we want using it, It was something that I have been interested in since middle school. In my freetime I usually play video games and watch Movies.</h3>
+</div>
+<img src="NEWME2.jpg" width="500" height="500" alt="Farhad Rasoli" class="ME"></div>
+</div>
+<hr><br>
+    <div id="projects">
+       <h2 class="title">Projects</h2><br>
+       <p class="projectdes">I like to create projects that interest me. Here are some, more are coming.</p><br>
+       <div class="entries">
+       <div class="entry">
+        <video id="myvideo" src="TIC-TAC-TOE 2024-01-09 23-52-02.mp4" width="600" height="405"></video>
+        <div class="text">
+            <h2>TIC-TAC-TOE</h2>
+        </div>
+        <div class="buttons">
+            <button id="play" type="button" onclick="playvid(0)">Play</button>
+            <button id="pause" type="button" onclick="pausevid(0)">Pause</button>
+            <a href="https://github.com/rasooli451/TIC_TAC_TOE"><button type="button">Github</button></a>
+        </div>
+       </div>
+       <div class="entry">
+        <video id="myvideo" src="Snake game 2024-01-09 11-06-32.mp4" width="600" height="405"></video>
+        <div class="text">
+            <h2>Snake game</h2>
+        </div>
+        <div class="buttons">
+            <button id="play" type="button" onclick="playvid(1)">Play</button>
+            <button id="pause" type="button" onclick="pausevid(1)">Pause</button>
+            <a href="https://github.com/rasooli451/Snakegame"><button type="button">Github</button></a>
+        </div> 
+    </div>
+    <div class="entry">
+        <video id="myvideo" src="Spaceship fighter 2024-01-10 00-10-47.mp4" width="605" height="405"></video>
+        <div class="text">
+            <h2>2Player SpaceShooter</h2>
+        </div>
+        <div class="buttons">
+            <button id="play" type="button" onclick="playvid(2)">Play</button>
+            <button id="pause" type="button" onclick="pausevid(2)">Pause</button>
+            <a href="https://github.com/rasooli451/Spacegame"><button type="button">Github</button></a>
+        </div>
+    </div>   
+    </div></div><br>
+    <hr><br><br>
+    <h2 class="title">Skills</h2><br>
+    <div id="skills">
+         <div class="Abilities">
+         <div class="skill">
+            <img src="java.svg" width="170" height="170" alt="java">
+            <p class="lang">Java</p>
+         </div>
+         <div class="skill">
+            <img src="javascript.svg" width="170" height="170" alt="javscript">
+            <p class="lang">Javascript</p>
+         
+        </div>
+         <div class="skill">
+            <img src="python.svg" width="170" height="170" alt="python">
+            <p class="lang">Python</p>
+        </div>
+         <div class="skill">
+            <img src="c.svg" width="170" height="170" alt="C">
+            <p class="lang">C</p>
+         </div>
+         <div class="skill">
+            <img src="c++.svg" width="170" height="170" alt="C++">
+            <p class="lang">C++</p>
+         </div>
+         <div class="skill">
+            <img src="html-5.svg" width="170" height="170" alt="HTML">
+            <p class="lang">HTML</p>
+         </div>
+         <div class="skill">
+            <img src="css-3.svg" width="170" height="170" alt="CSS">
+            <p class="lang">CSS</p>
+         </div>
+         <div class="skill">
+            <img src="linux-tux.svg" width="170" height="170" alt="Linux">
+            <p class="lang">Linux</p>
+         </div>
+         <div class="skill">
+            <img src="github.svg" width="170" height="170" alt="Github">
+            <p class="lang">Github</p>
+         </div>
+        </div>
+    </div>
+    <br><hr><br>
+     <h2 class="title">Contact Me</h2><br>
+    <div id="Contact">
+        <form class="Form" action="https://formsubmit.co/2906c7fc3232e984eabb502f9cac8003" method="POST">
+            <label for="Name">Name</label><br>
+            <input type="text" id="Name" name="Name" required>
+            <br><br>
+            <label for="Email">Email</label><br>
+            <input type="email" id="Email" name="Email" required>
+            <br><br>
+            <label for="message">Your Message</label><br>
+            <textarea cols="40" rows="15" name="message" required></textarea>
+            <br>
+            <br>
+            <button type="submit" class="send">Send</button><br><br>
+        </form>
+    </div><br><hr>
+    <script>
+        function playvid(index){
+            document.querySelectorAll("#myvideo")[index].play();
+        }
+        function pausevid(index){
+            document.querySelectorAll("#myvideo")[index].pause();
+        }
+    </script>
+    <footer>
+        <div class="Email">
+            <p>Email</p>
+            <p>rasoolyfarhad7@gmail.com</p>
+        </div>
+        <div class="githublink">
+            <p>Github</p>
+            <a href="https://github.com/rasooli451" target="_self" title="github">https://github.com/rasooli451</a>
+        </div>
+        <div class="phonenumber">
+            <p>Telephone</p>
+            <p>6475260355</p>
+        </div>
+    </footer>
+</body>
+</html>
