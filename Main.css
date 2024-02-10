@@ -134,7 +134,7 @@ h2{
 }
 button{
     height: 30px;
-    width: 40px;
+    width: 45px;
     background-color: rgb(79, 116, 104);
     border-radius: 5px;
 }
@@ -211,3 +211,11 @@ footer a, footer a:any-link{
     text-decoration: none;
     color: black;
 }
+
+.button{
+    display: flex;
+    width: 30%;
+    justify-content: center;
+    margin: auto;
+}    
+
